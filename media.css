@@ -1,0 +1,27 @@
+@media screen and (min-width:1024px) {
+
+}
+
+@media screen and (min-width:740) and (max-width:1024px) {
+    section {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 740px) {
+    section {
+        width: 80%;
+    }
+    .quatro {
+        grid-template-columns: 1fr;
+    }
+    .dernier {
+        grid-template-columns: 1fr;
+    }
+    .dernier div:nth-child(3) {
+        text-align: left;
+    }
+    p {
+        font-size: 17px;
+    }
+}
